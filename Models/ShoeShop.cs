@@ -12,7 +12,7 @@ namespace ShoesShopping.Models
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         [MaxLength(250), Unique]
-        public string Name { get; set; }
+        public string Description { get; set; }
 
     }
 }
