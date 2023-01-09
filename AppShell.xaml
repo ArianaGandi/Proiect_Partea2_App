@@ -26,6 +26,10 @@
         <ShellContent Title="Shopping" ContentTemplate="{DataTemplate local:EntryShoe}" />
     </FlyoutItem>
 
+    <FlyoutItem Title="Account" Icon="user.png">
+        <ShellContent Title="Account" ContentTemplate="{DataTemplate local:AccountPage}" />
+    </FlyoutItem>
+
 
 </Shell>
 
